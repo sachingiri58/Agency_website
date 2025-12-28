@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import assets from "../assets/assets"; 
+import ThemeToggleBtn from './ThemeToggleBtn'
 
 const Navbar = ({ theme, setTheme }) => {
 
@@ -34,6 +35,7 @@ const Navbar = ({ theme, setTheme }) => {
       </div>
 
       <div className="flex items-center gap-2 sm:gap-4">
+        <ThemeToggleBtn theme={theme} setTheme={setTheme}/>
         <img
           src={assets.close_icon}
           alt=""
