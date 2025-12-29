@@ -42,6 +42,7 @@ const Services = () => {
         title="How can we help?"
         desc="From strategy to execution, we craft digital solutions that move your business forward."
       />
+      <h1>add the dummy style</h1>
     </div>
   );
 };
