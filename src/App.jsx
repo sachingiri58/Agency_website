@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Trusted from "./components/TrustedBy";
 import Services from "./components/Services";
+import OurWork from "./components/OurWork";
 
 
 const App =()=>{
@@ -16,8 +17,10 @@ const App =()=>{
         <Navbar theme={theme} setTheme={setTheme}/>
         <Hero/>
         <Trusted/>
-      
+        
         <Services/>
+        <OurWork/>
+        
       </div>
     
   )
